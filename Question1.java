@@ -26,14 +26,15 @@ public class Question1 {
         while (x < 1 && x > 10){
             a = b;
         }
-        //the condition is always false so, even though x take any value, all statements inside the loop never execute.
+        //the condition is always false so, even though x take any value, all statements
+        // inside the loop never execute. This is a logical error.
 
         //d.
         while (a == b){
             a = b;
             x = y;
         }
-        //if the condition is true at the first time, this loop will be infinite, because the condition
-        //will be always true.
+        //if the condition is true at the first time, this loop will be infinite,
+        // because the condition will be always true. This is a logical error.
     }
 }
